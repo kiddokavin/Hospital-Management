@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: km-hospital
+    env: static
+    buildCommand: echo "Static site build"
+    staticPublishPath: .
